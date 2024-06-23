@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="resources/coffee_favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div id="logo_con">
+            <a href="#"><img id="logo" src="resources/logo.png" alt="coffee lab logo"></a>
+        </div>
+        <nav>
+            <li><a href="#">Hario</a></li>
+            <li><a href="#">Kalita</a></li>
+            <li><a href="#">Origami</a></li>
+        </nav>
+    </header>
+
+    <!-- Summary of Origami -->
+    <div id="section1" class="section">
+        <div id="one_text">
+            <h1>ORIGAMI</h1>
+        <div class="text_container">
+            <p>Inspired by Japanese paper craft, the Origami is a functional yet aesthetic piece of brewing equipment for the right coffee connoisseur.</p>
+            <p>It stands out for its flexibility in containing both cone and wave paper filters for those who enjoy experimentation in flavour profiles.</p>
+        </div>
+        </div>
+        <div id="ori_logo">
+            <img id="origami" src="resources/ori_big.png" alt="origami">
+        </div>  
+    </div>
+
+    <!-- History of the Origami -->
+    <div id="history" class="section text-md">
+        <h1>HISTORY</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner py-3">
+              <div class="carousel-item active">
+                <img src="resources/ori1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="resources/ori2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="resources/ori3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="text_container2">
+            <p>Handcrafted from the Mino region of Gifu prefecture in Japan, known for their exceptional ceramic craftmanship.</p>
+            <p>Each dripper is carved with 20 vertical grooves that pass air along to bring out the best flavor of the beans.</p>
+            <p>The dripper's ceramic build also provides high thermal conductivity and heat retention, ensuring even coffee extraction throughout the process.</p>
+        </div>
+    </div>
+
+    <!-- Profile -->
+    <div class="section">
+        <h1 class="header">PROFILE</h1>
+        <div id="profile_banner" class="profile">
+            <img src="resources/profile.png" alt="coffee cupping">
+        </div>
+
+        <table>
+        <tr>
+            <th>Taste Notes:</th>
+            <td>Extracts <span>rich, sweeter, fuller</span> coffee than Hario V60. Produces a well-balanced acidity profile which maintained as the coffee cooled.</td>
+        </tr>
+        <tr>
+            <th>Material:</th>
+            <td>Porcelain</td>
+        </tr>
+        <tr>
+            <th>Colours:</th>
+            <td>15 colours available (ranging from pastel to bright colours).
+                <span><a id="colour_link" href="https://cdn.shopify.com/s/files/1/0218/0877/5232/files/ORIGAMI_CATALOG_2024.4_EN_web.pdf?v=1713773318" target="_blank">(See colour options here.)</a></span>
+            </td>
+        </tr>
+        <tr>
+            <th>Paper type:</th>
+            <td>Cone or Wave filter papers</td>
+        </tr>
+        </table>
+    </div>
+
+    <!-- Recipes -->
+    <div class="section" id="recipe_container">
+        <div id="recipe_text">
+            <h1>RECIPE</h1>
+            <p>Coffee: 15g <br>Water: 270g (88-90℃)</p>
+            <ol>
+                <li>During the first 30 seconds, pour 40g of water.</li>
+                <li>During the next 30 seconds, slowly pour 130g of water.</li>
+                <li>Finish pouring 270g of water before the timer hits 80 seconds.</li>
+                <li>Take the dripper off from the server.</li>
+            </ol>
+        </div>
+        <!-- Recipe Video -->
+        <div class="video">
+            <p>Watch this step-by-step brewing tutorial from Kurasu Roasters!</p>
+            <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/epkWs-Eo4m4?si=nx0_9iaFueecGxkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+
+    <!-- Link to Purchase -->
+    <div class="section" id="buying_container">
+        <h1>WHERE TO BUY</h1>
+        <p>Here are a list of websites you can purchase an Origami Dripper:</p>
+        <div class="buying_places">
+            <div class="icon_con card" style="background-color: transparent;">
+                <a href="https://shopee.com.my/Origami-Dripper-S-Turquoise-i.8538774.6732559675?sp_atk=6d359c23-f888-4c12-89f5-ed04efa36314&xptdk=6d359c23-f888-4c12-89f5-ed04efa36314">
+                <img class="icon" src="resources/shopee_trans2.png" alt="Shopee">
+                </a>
+            </div>
+            <div class="icon_con card" style="background-color: transparent;">
+                <a href="https://www.lazada.com.my/products/origami-japan-dripper-ceramic-i3721703019-s21218276455.html?">
+                <img class="icon" src="resources/lazada_trans2.png" alt="Lazada">
+                </a>
+            </div>
+            <div class="icon_con card" style="background-color: transparent;">
+                <a href="https://kurasu.kyoto/collections/origami">
+                <img class="icon" src="resources/kurasu_trans.png" alt="Kurasu">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discover brewing methods -->
+    <div id="discover_container" class="section">
+        <div id="discover">
+            <h1>DISCOVER OTHER BREWING METHODS</h1>
+        </div>
+
+        <div class="card_container">
+            <div class="card" style="background-color: transparent;">
+                <a href="#"><img class="brew_pic" src="resources/tusbame_trans.png" alt="kalita wave"></a>
+                <h4 id="kalita_text">Kalita Wave</h4>
+            </div>
+            <div class="card" style="background-color: transparent;">
+                <a href="#"><img class="brew_pic" id="hario" src="resources/hario_trans2.png" alt="hario v60"></a>
+                <h4>Hario V60</h4>
+            </div>
+            <div class="card" style="background-color: transparent;">
+                <a href="#"><img class="brew_pic" src="resources/cafec_trans.png" alt="cafec"></a>
+                <h4>Cafec</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_header">
+            <h4>Coffee Lab Project</h4>
+            <p>By: Nicole Koh</p>
+        </div>
+        <div class="footer_text">
+            <p>This is my first HTML project, inspired by my love for coffee brewing equipment.</p>
+            <p>I wanted to build a website where beginners can find all the relavant information they need to pick their first filter coffee dripper 
+            (As the market is oversaturated with too many options). The website is divided into the following parts:
+            Summary, History, Profile, Recipe, Purchasing links, and Suggestions for other methods.</p>
+            <p>The profile section describes the expected taste notes from using this brewing method, its material construction, available colours, and the type of filter paper it is compatible with.
+                Furthermore, the recipe section provides detailed instructions and a video tutorial to guide beginners on using the product.
+                Purchasing Links are also provided as I remembered how confusing it was to find resellers that sold authentic versions of the product in my country.
+                Lastly, I provided suggestions to other drippers so users can compare between different products before deciding which dripper is most suitable for their taste preferences, budget, and convenience.
+            </p>
+            <p>I enjoyed learning how to incorporate Bootstrap functions such as the carousel slideshow and cards to streamline the display of images.
+                Addtionally, I tried to experiment with some hovering animations to add some depth into the elements. Embedding youtube videos turned out eaiser than expected.
+                Finally, I learnt how to convert my logo into a favicon icon for the image next to the tab title of the page.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
